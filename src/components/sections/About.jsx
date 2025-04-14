@@ -2,14 +2,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "Flutter",
+    "SwiftUi",
+    "XML",
+    "jetpack Compose",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Dart", "swift","Kotlin", "Firebase", "MongoDB", "Node.js"];
 
   return (
     <section
@@ -25,7 +24,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
+              Passionate Software Engineer with 4 years of expertise in building scalable Mobile
               applications and creating innovative solutions.
             </p>
 
@@ -69,12 +68,16 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.S. in Computer Science </strong> - Awkum University
+                  (2017-2021)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Data Structures, Algorithms, SE1,SE2,Assembly Language,Operating Systems,Computer Networks,
+                  Database Management Systems,Software Engineering,Object Oriented Programming,Computer Organization and Architecture,
+                  Data Communication and Computer Networks,Computer Graphics,Artificial Intelligence,Machine Learning,
+                  Deep Learning,Computer Vision,Natural Language Processing,Computer Networks,
+                  Computer Graphics,Artificial Intelligence,Machine Learning,Deep Learning,Computer Vision,
+                  Natural Language Processing,Computer Networks,Computer Graphics,Artificial Intelligence,
                 </li>
               </ul>
             </div>
@@ -84,22 +87,29 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Software Engineer at CodeOrbit (2022 - 2024){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                  Designing and implementing user interfaces that were both visually appealing and highly
+functional.
+ Integrating with various backend APIs and services to fetch and display data.
+Implementing state management solutions to manage complex application states efficiently.
+Optimizing app performance and ensuring smooth user experiences across different devices
+and screen sizes.
+ Conducting thorough testing and debugging to identify and resolve issues promptly..
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Mobile Developer at Software Ag (2021 - 2022){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  During my year-long experience in mobile app development with Software Ag , I've honed my skills in
+both Flutter and native Android using Kotlin . I've successfully developed and deployed crossplatform applications, leveraging the power of Flutter to create visually appealing and performant
+user interfaces. I've also gained proficiency in Kotlin for native Android development, crafting robust
+and scalable applications
                   </p>
                 </div>
               </div>
