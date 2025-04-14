@@ -2,9 +2,6 @@
 
 This repository contains a beautiful, responsive personal portfolio built using **React**, **Vite**, and **TailwindCSS**. The project showcases modern web development techniques including smooth animations, responsive layouts, and interactive UI components.
 
-
-
-
 ## Features
 
 - **Modern Design:** Clean, SaaS-inspired design with a glass-effect navbar and sleek animations.
@@ -24,8 +21,8 @@ This repository contains a beautiful, responsive personal portfolio built using 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/miabilal/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies:**
@@ -56,12 +53,23 @@ Then, you can preview the production build with:
 npm run preview
 ```
 
+## Deployment
+
+To deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+The website will be available at [https://miabilal.github.io/portfolio](https://miabilal.github.io/portfolio).
+
 ## Folder Structure
 
 ```
-your-portfolio/
+portfolio/
 ├── public/
-│   └── index.html
+│   ├── vite.svg
+│   └── resume.pdf
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
@@ -77,6 +85,8 @@ your-portfolio/
 │   └── main.jsx
 ├── package.json
 ├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
 └── README.md
 ```
 
@@ -85,10 +95,6 @@ your-portfolio/
 - **Tailwind CSS:** Modify the `index.css` file or add custom classes to further tweak the design.
 - **Components:** Edit individual components in the `src/components/` folder to update content or styling.
 - **Sections:** Update content in the `src/components/sections/` directory to showcase your personal projects, about info, and contact details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with improvements.
 
 ## License
 
