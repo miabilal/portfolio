@@ -9,7 +9,7 @@ export const Projects = () => {
       id: 1,
       title: "Ai Skin Analyzer App",
       description: "AI-powered skin analysis app that detects skin type, wrinkles, acne, and more — helping users monitor and improve their skin health..",
-      image: "/src/assets/images/project1.png",
+      image: "/portfolio/src/assets/images/Project1.png",
       link: "https://project1.com",
       github: "https://github.com/miabilal/Skin-Analyzer",
       technologies: ["Flutter", "Ai Api", "Firebase"]
@@ -17,8 +17,8 @@ export const Projects = () => {
     {
       id: 2,
       title: "Ai Age Detection App",
-      description: "A smart facial recognition app that accurately estimates a person’s age using advanced AI and image processing.",
-      image: "/src/assets/images/project2.png",
+      description: "A smart facial recognition app that accurately estimates a person's age using advanced AI and image processing.",
+      image: "/portfolio/src/assets/images/Project2.png",
       link: "https://project2.com",
       github: "https://github.com/miabilal/age_detection_app",
       technologies: ["Flutter", "TensorFlow", "Sqlite"]
@@ -27,7 +27,7 @@ export const Projects = () => {
       id: 3,
       title: "Location Based Task Reminder App",
       description: "A location-based task reminder app that notifies users of important tasks precisely when they reach specific places..",
-      image: "/src/assets/images/project3.png",
+      image: "/portfolio/src/assets/images/Project3.png",
       link: "https://project3.com",
       github: "https://github.com/miabilal/location_reminder",
       technologies: ["Flutter", "Node.js", "Microservices"]

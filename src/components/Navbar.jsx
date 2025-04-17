@@ -74,7 +74,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Contact
             </a>
             <a
-              href="/resume.pdf"
+              href="/portfolio/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-white py-2 px-5 rounded-full font-medium"

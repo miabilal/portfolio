@@ -44,7 +44,7 @@ export const About = () => {
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-cyan-400 p-1 mb-4">
                     <div className="w-full h-full rounded-full bg-black overflow-hidden">
                       <img 
-                        src="/src/assets/images/profile.jpg" 
+                        src="/portfolio/src/assets/images/profile.jpg" 
                         alt="Muhammad Bilal" 
                         className="w-full h-full object-cover"
                       />
