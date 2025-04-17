@@ -81,8 +81,8 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-300">Email</h4>
-                    <a href="mailto:contact@miabilal.com" className="text-blue-500 hover:text-blue-400 transition-colors">
-                      contact@miabilal.com
+                    <a href="mailto:miabilal035@gmail.com" className="text-blue-500 hover:text-blue-400 transition-colors">
+                      miabilal035@gmail.com
                     </a>
                   </div>
                 </div>
